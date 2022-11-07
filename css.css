@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+p{
+    font-family: 'Arimo', sans-serif;
+}
+
+h1{
+    font-family: 'Crete Round', serif;  
+}
+
+h2{
+    font-family: 'Crete Round', serif;  
+}
+
+a{
+    color: white;
+}
+
+/* ESTILIZAÇÃO DE POSIÇÃO DO CABEÇALHO */
+header{
+    width: 100vw;
+    height: 136px;
+    background-color: #21422D;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: absolute;
+    top: 0px;
+    border-radius: 0 0 10px 10px;
+    font-family: 'Crete Round', serif;
+    position: fixed;
+    z-index: 1000;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+}
+
+
+
+/* ESTILIZAÇÃO DE ELEMENTOS DO CABEÇALHO */
+
+#brasao{
+    width: 68px;
+    height: 89px;
+    margin-left: 19px;
+}
+
+#titulojaragua{
+    font-size: 48px;
+    margin-left: 48px;
+    
+}
+
+.itens{
+    font-size: 28px;
+    margin-left: 131px;
+}
+
+.icone{
+    width: 35px;
+    height: 33px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#lupa{
+    width: 30px;
+    height: 29px;
+    margin-bottom: 0;
+}
+
+#localização{
+    margin-right: 48px;
+}
+
+
+/* ESTILIZAÇÃO DO RODAPÉ */
+footer{
+    width: 100vw;
+    height: 58px;
+    background-color: #21422D;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    position: absolute;
+    display: flex;
+}
+
+#footerbug{
+    margin-left: 0px;
+}
+
+#footerpg2{
+    margin-left: -100px;
+    margin-top: 10px;
+}
+
+#footerpg3{
+    position: absolute;
+    top: 900px;
+    margin-left: -60px;
+}
+
+#footerpg4{
+    margin-left: -100px;
+    margin-top: 20px;
+}
+
+form div{
+    margin-left: 40px;
+    margin-top: 7px ;
+}
+
+label{
+    margin: 0 0 0 2px;
+}
+
+input{
+    height: 25px;
+    border-radius: 5px;
+}
+
+#iconposition{
+    margin-left: 740px;
+    margin-top: 12px;
+}
+
+.iconsef{
+    width: 30px;
+    margin-left: 40px;
+}
+
+#iconbug{
+    width: 40px;
+    margin-left: 40px;
+}
+
+/* PRIMEIRA PÁGINA */
+#fundo{
+    width: 100vw;
+}
+
+#conteúdo{
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    width: 400px;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+
+#conteúdo p{
+    margin: 20px;
+    text-align: justify;
+}
+
+#botão{
+    position: absolute;
+    top: 100%;
+    left: 17.5%;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 250px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#botão:hover{
+    position: absolute;
+    top: 100%;
+    left: 17.5%;
+    background-color: rgb(32, 32, 32, 0.8);
+    width: 250px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#botão p{
+    margin: 20px 40px 20px 40px;
+}
+
+
+/* SEGUNDA PÁGINA */
+#casarão{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-top: 5px;
+    left: 0.5%;
+    border-radius: 5px;
+}
+
+#pagina2{
+    position: absolute;
+    top: 135px;
+    left: 70px;
+    margin: 15px;
+    margin-left: 30px;
+}
+
+#pagina2 h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#pagina2 h2{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+#posicionamento1{
+    width: 800px;
+    position: relative;
+    left: 325px;
+    font-size: 1.1rem;
+    margin-top: 30px;
+} 
+
+#posicionamento2{
+    width: 800px;
+    position: relative;
+    left: 0.5%;
+    font-size: 1.1rem;
+    margin-top: 40px;
+} 
+
+#indios{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 260px;
+    left: 825px;
+    border-radius: 5px;
+}
+
+#segundaparte{
+    margin-bottom: 20px;
+}
+
+#segundaparte p{
+    font-size: 1.1rem;
+    width: 800px;
+}
+
+#segundaparte img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 825px;
+    border-radius: 5px;
+}
+
+#vista{
+    top: 57%;
+}
+
+#trem{
+    margin-top: 40px;
+}
+
+#estacao{
+    position: absolute;
+    top: 79%;
+    margin-top: 10px;
+}
+
+/* TERCEIRA PÁGINA */
+#pagina3{
+    margin-left: 60px;
+    position: absolute;
+    top: 145px;
+}
+
+#pagina3 h1{
+    font-size: 3.75em;
+    font-weight: 500;
+}
+
+#bloco-bug {
+    position: relative;
+    top: 20px;
+}
+
+#blocos > div{
+    font-family: 'Arimo', sans-serif;
+    width: 310px;
+    height: 120px;
+    background: #F4E8E8;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.31);
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.bloco-text{
+    height: 120px;
+    width: 500px;
+    display: inline-block;
+    margin: 0px 80px 0 0 ;
+}
+
+.circulo{
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    border: 9px solid #000000;
+    border-radius: 90px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.circulo img{
+    width: 80px;
+    position: relative;
+    left: -3px;
+    top: 3px;
+}
+
+#img-bug{
+    width: 70px;
+    top: 9px;
+    left: 0.1px;
+}
+
+#img-bug2{
+    width: 50px;
+    top: 11px;
+    left: 11px;
+}
+
+.texto{
+    width: 180px;
+    position: relative;
+    display: inline-block;
+    margin-left: 110px;
+    top: -80px;
+}
+
+.texto h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 80%;
+}
+
+.texto p{
+    font-size: 1.7rem;
+    margin-right: 10px;
+}
+
+.texto span{
+    font-size: 0.8rem;
+}
+
+#subprefeitura{
+    margin-top: 20px;
+}
+
+#subprefeitura p{
+    width: 600px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    position: relative;
+    left: 45%;
+    top: 20px;
+}
+
+#subprefeitura a{
+    color: #000000;
+}
+
+#subprefeitura iframe{
+    position: absolute;
+    top: 70%;
+    width: 500px;
+    margin: 20px;
+}
+
+/* CONTEÚDO PÁGINA 4 */
+#pagina4{
+    margin-left: 100px;
+    position: absolute;
+    top: 145px;
+    width: 100%;
+}
+
+#pagina4 h1{
+    font-size: 3.75em;
+    font-weight: 500;
+}
+
+#pagina4 section iframe{
+    display: block;
+    margin: 30px 0 0 77px;
+    width: 80%;
+    height: 500px;
+    box-shadow: 4px 4px 4px 0px #0000004F;
+}
+
+.lazerimg{
+    width: 370px;
+    height: 450px;
+    position: relative;
+
+}
+
+#lazer div {
+    display: flex;
+}
+
+
+.lazerimg:hover{
+    width: 420px;
+    transition: 0.3s;
+}
+
+#lazer div{
+    display: inline-block;
+}
+
+#trilha{
+    bottom: 20px;
+    left: 7px;
+    width: 199px;
+}
+
+#cantareira{
+    bottom: 20px;
+    margin-left: 7px;
+    width: 199px;
+}
+
+.legendalazer{
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    position: absolute;
+    top: 1120px;
+    margin-left: 10px;
+}
+
+#comercio{
+    margin-top: 20px;
+}
+
+#comercio h2{
+    margin-top: 20px;
+}
+
+#ulp li{
+    margin-left: 30px;
+}
+
+.positionul{
+    position: absolute;
+    top: 1338px;
+    left: 15%;
+}
+
+#pisos{
+    position: absolute;
+    top: 1360px;
+    left: 15%;
+}
+
+#imgcantareira{
+    position: absolute;
+    top: 1260px;
+    right: 80px;
+}
+
+#imgcantareira img{
+    width: 70%;
+}
+
+#imgcantareira figcaption{
+    font-family: 'Arimo', sans-serif;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+#olp{
+    font-family: 'Arimo', sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+}
